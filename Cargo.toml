@@ -1,5 +1,5 @@
 [package]
-name = "rustkey"
+name = "rust-microservice-server"
 version = "0.1.0"
 authors = ["Marcus Johansson <mjoh9512@gmail.com>"]
 edition = "2018"
@@ -7,4 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rocket = "0.4.5"
+rocket="0.4.5"
+shiplift="0.6.0"
